@@ -14,7 +14,7 @@ int ud(int x)  {
         x=x%100;
         printf("Los ultimos dos dig%ctos del n%cmero introducido es: %d", 161, 163, x);
     }
-    if (x>=1000 && x<=9999 || x<=-1000 && x>=-99999){
+    if (x>=1000 && x<=9999 || x<=-1000 && x>=-9999){
         x=x%100;
         printf("Los ultimos dos dig%ctos del n%cmero introducido es: %d", 161, 163, x);
     }
