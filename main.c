@@ -14,7 +14,7 @@ int ud(int x)  {
         x=x%10;
         printf("El %cltimo dig%cto del n%cmero introducido es: %d", 163, 161, 163, x);
     }
-    if (x>=1000 && x<=9999 || x<=-1000 && x>=-99999){
+    if (x>=1000 && x<=9999 || x<=-1000 && x>=-9999){
         x=x%10;
         printf("El %cltimo dig%cto del n%cmero introducido es: %d", 163, 161, 163, x);
     }
