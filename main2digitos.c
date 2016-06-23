@@ -23,7 +23,7 @@ int ud(int x)  {
         printf("Los ultimos dos dig%ctos del n%cmero introducido es: %d", 163, 161, 163, x);
     }
     while (x>32767 || x<-32767) {
-        printf("Este n%mero %d supera la capacidad del tipo de dato int.\nPor favor, intente digitar un n%cmero entre el rango de 32767 a -32767.\n", 163, x, 163);
+        printf("Este n%cmero %d supera la capacidad del tipo de dato int.\nPor favor, intente digitar un n%cmero entre el rango de 32767 a -32767.\n", 163, x, 163);
             printf("Introduzca el n%cmero al cual le desea conocer los ultimos 2 dig%ctos.\nOjo: el n%cmero solo puede ser de 5 dig%ctos\nEn caso de que haya un 0 de primer d%cgito, el programa no lo imprimir%c\n", 163, 161, 163, 161, 161, 160);
                 scanf("%d", &x);
                 ud(x);
